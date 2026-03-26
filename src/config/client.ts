@@ -30,8 +30,8 @@ export const client = {
   twitter: "",
 
   // Reviews
-  googleRating: "5.0",
-  reviewCount: "0",
+  googleRating: "5",
+  reviewCount: "6",
 
   // Services
   services: [
@@ -79,9 +79,12 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Sue Dowler", rating: 5, text: "I would have no hesitation in recommending this company. They were reliable, knowledgeable and hard working and cleared up completely when finished. I'm very happy with my huge hedge. ", date: "11 months ago" },
+    { name: "Mike Staite", rating: 5, text: "Another first class job from a professional company. Frank and his team certainly know how to prune shrubs and trees as well as removing an old tree. All debris removed with the garden and drive left as though nothing had happened! …  ", date: "3 years ago" },
+    { name: "Nadia Wawryn", rating: 5, text: "Amazing, can't fault them. Frank was very professional from our initial contact. Frank and Shane were great guys, hard working, tidy. HHighlyctecommend the  ", date: "2 years ago" },
+    { name: "WIZARD PRINTERS", rating: 5, text: "We had the pleasure of printing the Southwest Landscapes Compnay work wear. Frank was really great to communicate his requirements. We look forward to working with him again on future jobs printing Sign Boards, and more work wear. Cheers, Rob @ Wizar", date: "7 years ago" },
+    { name: "Patricia Todd", rating: 5, text: "Arrived in good time and was polite. Assessed the garden and advised that the  price for clearing brambles would be £350   ! With a further sting of £100 to take away the waste !!! ", date: "4 years ago" },
+    { name: "Ray Brasier", rating: 5, text: "Excellent work would recommend ", date: "5 months ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
